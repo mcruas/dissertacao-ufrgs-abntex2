@@ -1,4 +1,3 @@
-%%
 %% Customizações do abnTeX2 (http://abnTeX2.googlecode.com) para a UFRGS
 %%
 %% This work may be distributed and/or modified under the
@@ -28,6 +27,7 @@
 \LoadClass{abntex2}
 
 
+
 %%%% alterando a capa %%%%
 \renewcommand{\imprimircapa}{%
   \begin{capa}%
@@ -37,11 +37,12 @@
     
     \vspace*{3cm}
     
-    {\ABNTEXchapterfont\large\imprimirautor}
+    {\ABNTEXchapterfont\LARGE\imprimirautor}
 
     \vspace*{3cm}
 
-    \ABNTEXchapterfont\bfseries\LARGE\imprimirtitulo
+  %  \ABNTEXchapterfont\bfseries\LARGE\imprimirtitulo
+\ABNTEXchapterfont\LARGE\imprimirtitulo
 
 	\vfill
     
@@ -66,7 +67,7 @@
 %\begin{center}
 \large {
 
-\imprimirautor \\ [4cm]
+\LARGE\imprimirautor \\ [4cm]
 
 
 { \ABNTEXchapterfont\bfseries\LARGE\imprimirtitulo \\ [4cm]}
@@ -75,11 +76,19 @@
 
 %\begin{flushright}
 \hfill
+
+
+%    \hspace{.45\textwidth}
+%    \begin{minipage}{.5\textwidth}
+%        \imprimirpreambulo
+%    \end{minipage}%
+
+
 \hspace{.45\textwidth} 
  \begin{minipage}{.5\textwidth} 
-\imprimirpreambulo
-
-\imprimirorientadorRotulo~\imprimirorientador
+ \normalsize\imprimirpreambulo
+\\ [1cm]
+\large\imprimirorientadorRotulo~\imprimirorientador
 \end{minipage}
 
 %\end{flushright}
