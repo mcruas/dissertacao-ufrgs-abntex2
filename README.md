@@ -24,3 +24,5 @@ Com relação ao pacote abntex2, apenas modifiquei as seguintes páginas:
 Ps: É necessário instalar o pacote abntex2 para que funcione. Para informações, basta ir na página fornecida acima para instruções.
 
 Ps2: Assim que acabar minha dissertação, prometo fazer um tutorial melhor sobre os usos do abntex2, Latex, etc. para quem quiser usar essas classes. Do jeito que está, 100% leigos AINDA não váo conseguir usar. Mas aguardem!!
+
+Ps3: Para baixar os arquivos, clicar no botão '''Download Zip''', na coluna à direita. O nome do arquivo, ''master.zip'', vem das nomeclaturas do Git, e indica a última versão do repositório.
